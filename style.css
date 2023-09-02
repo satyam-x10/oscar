@@ -55,7 +55,7 @@ body
     font-family: 'Oswald', sans-serif;
     font-weight: 800;
     font-size: xx-large;
-    background-image: url("../img/header.png");
+  
     background-size: contain;
     border-radius: 20px;
 }
