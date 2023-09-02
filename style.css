@@ -1,0 +1,284 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+    /* border: solid 2px #f4a71e; */
+}
+
+#header 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: -20px 0 0 0;
+}
+
+#sort 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #19332a;
+    color: #f4a71e;
+    width: 30vw;
+    margin: 5px auto;
+    border-radius: 14px;
+    border: solid 4px #f4a71e;
+    padding: 2px;
+    margin: -3px auto;
+}
+
+#logo img 
+{
+    height: 15vh;
+    /* width: 5vw; */
+    margin: 5px 0 0 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#title 
+{
+    width: 90vw;
+    text-align: center;
+    align-items: center;
+    border: solid 5px rgb(200, 255, 0);
+    padding: 3px;
+    justify-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+    background-image: url("../img/header.png");
+    background-size: contain;
+    border-radius: 20px;
+}
+
+h7 
+{
+    padding: 0 5px;
+    background-color: #19332a;
+    border-radius: 20px;
+    border: solid 5px yellow;
+    color: yellow;
+}
+
+.movie-container 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#movie-area 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.movie-card 
+{
+    padding: 20px;
+    margin: 10px 30px 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 180px;
+    height: auto;
+    border: solid 2px black;
+}
+
+.movie-card:hover
+{
+    scale: 1.03;
+    border: 2px solid yellow;
+    background-color: #f4a61e2b;
+}
+
+#detail
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#detail div 
+{
+    margin: -5px 0 0 0;
+}
+
+.movie-card img 
+{
+    border-radius: 20px;
+    width: 150px;
+    padding: 0px 0 5px 0;
+}
+
+a:hover 
+{
+    cursor: pointer;
+}
+#myweb
+{
+text-decoration: none;
+color: #000000;
+}
+.mtitle 
+{
+    color: #f4a71e;
+}
+
+footer 
+{
+    position: fixed;
+    background-color: #f4a71e;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row;
+    bottom: 0px;
+    left: 0px;
+    height: 8vh;
+    width: 99vw;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 1px 0;
+}
+
+footer img 
+{
+    height: 55px;
+    border: 5px solid yellow;
+    border-radius: 55px;
+    filter: invert();
+}
+
+footer a 
+{ 
+    right: 70px;
+    text-decoration: none;
+}
+
+#ftr 
+{
+    height: 55px;
+    left: 20px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    filter: none;
+}
+
+#lname 
+{
+    margin: auto;
+    font: 800;
+    font-size: x-large;
+    color: #000000;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#upimg 
+{
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+}
+
+#name 
+{
+    margin: auto;
+    font: 600;
+    color: black;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.btn 
+{
+    color: #34f604;
+    background-color: #19332a;
+    scale: 2;
+    margin: 20px;
+    border: solid 2px #f4a71e;
+    border-radius: 20px;
+}
+
+.btn:hover 
+{
+    scale: 2.5;
+    cursor: pointer;
+}
+
+.bbtn 
+{
+    border: solid 2px #f4a71e;
+    background-color: #19332a;
+    border-radius: 20px;
+    color: #f60404;
+    scale: 3;
+    margin: 20px;
+}
+
+.bbtn:hover 
+{
+    scale: 3.5;
+    cursor: pointer;
+}
+
+#bright 
+{
+    position: fixed;
+    right: 10px;
+}
+
+button 
+{
+    background-color: #f4a71e;
+    border-radius: 13px;
+}
+
+button:hover 
+{
+    cursor: pointer;
+}
+
+input 
+{
+    border-radius: 13px;
+    background-color: #f4a71e;
+    text-align: center;
+}
+
+.reviewslink 
+{
+    text-decoration: none;
+    color: #f4a71e;
+    border: solid 1px #f4a71e;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+}
+
+.reviewslink:hover 
+{
+    background-color: #f6a823;
+    cursor: pointer;
+    color: #000000;
+}

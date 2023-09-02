@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Winning Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Oswald:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/057cdb5a27.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<!-- header -->
+    <div id="header">
+        <div id="logo"><img src="img/oscar.png" alt="logo"></div>
+        <div id="title">
+            <h7>Oscar Winning Movies</h2>
+        </div>
+    </div>
+
+    <!-- sort div to sort movies based on imdb entered by user  -->
+    <div id="sort">
+        <form id="sortForm" >
+            Sort Movie with Imdb Greater than :
+            <input id="sortno" type="number" name="sortval"  min="0" max="10">
+            <button id="sortbtn" type="submit"   > Sort</button>
+        </form>
+    </div>
+    <!-- Main are where movies cards will be display -->
+    <div class="movie-container">
+        <div id="movie-area">
+
+
+        </div>
+    </div>
+    <!-- footer with  buttons to naviagte to next page, previous page, top of the page -->
+    <footer>
+        <!-- clicking here will take u to first page -->
+        <div> <i id="bleft" class="fa-solid bbtn  fa-left-long"></i></div>
+        <!-- clicking here will take u to top of the page -->
+        <div id="lname" ><a id="lname"  href="#header">Oscar</a> </div>
+        
+        <!-- clicking here will take u to previous/next of the page -->
+        <div> <i id="left" class="fa-solid btn  fa-left-long"></i></div>
+        <div> <i id="right" class="fa-solid btn  fa-right-long"></i></div>
+        
+        
+        
+        <!-- clicking here will take u to last page -->
+        <div id="name"><a id="myweb" href="https://satyam-x10.github.io/portfolio/" target="_blank">SATYAM KUMAR</a></div>
+        <div> <i id="bright" class="fa-solid bbtn  fa-right-long"></i></div>
+        
+    </footer>
+    <script src="index.js" defer></script>
+   
+</body>
+
+</html>
