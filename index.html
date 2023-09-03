@@ -15,20 +15,20 @@
 </head>
 
 <body>
-<!-- header -->
+    <!-- header -->
     <div id="header">
         <div id="logo"><img src="img/oscar.png" alt="logo"></div>
-        <div id="title" style="background-image: url('img/header.png')" >
+        <div id="title">
             <h7>Oscar Winning Movies</h2>
         </div>
     </div>
 
     <!-- sort div to sort movies based on imdb entered by user  -->
     <div id="sort">
-        <form id="sortForm" >
+        <form id="sortForm">
             Sort Movie with Imdb Greater than :
-            <input id="sortno" type="number" name="sortval"  min="0" max="10">
-            <button id="sortbtn" type="submit"   > Sort</button>
+            <input id="sortno" type="number" name="sortval" min="0" max="10">
+            <button id="sortbtn" type="submit"> Sort</button>
         </form>
     </div>
     <!-- Main are where movies cards will be display -->
@@ -39,25 +39,37 @@
         </div>
     </div>
     <!-- footer with  buttons to naviagte to next page, previous page, top of the page -->
-    <footer>
-        <!-- clicking here will take u to first page -->
-        <div> <i id="bleft" class="fa-solid bbtn  fa-left-long"></i></div>
-        <!-- clicking here will take u to top of the page -->
-        <div id="lname" ><a id="lname"  href="#header">Oscar</a> </div>
-        
-        <!-- clicking here will take u to previous/next of the page -->
-        <div> <i id="left" class="fa-solid btn  fa-left-long"></i></div>
-        <div> <i id="right" class="fa-solid btn  fa-right-long"></i></div>
-        
-        
-        
-        <!-- clicking here will take u to last page -->
-        <div id="name"><a id="myweb" href="https://satyam-x10.github.io/portfolio/" target="_blank"></a></div>
-        <div> <i id="bright" class="fa-solid bbtn  fa-right-long"></i></div>
-        
-    </footer>
+    <!-- <footer>
+        <div id="footer-container">
+            <div class="footer-button" id="first-page">
+                <i class="fas fa-angle-double-left"></i> First Page
+            </div>
+            <div class="footer-button" id="scroll-top">
+                <a href="#header">BACPAC</a>
+            </div>
+            <div class="footer-button" id="previous-page">
+                <i class="fas fa-angle-left"></i> Previous Page
+            </div>
+            <div class="footer-button" id="next-page">
+                Next Page <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="footer-button" id="last-page">
+                Last Page <i class="fas fa-angle-double-right"></i>
+            </div>
+        </div>
+    </footer> -->
+    
+    <div id="navbtn">
+        <div id="left" class="nbtn btn"><img src="img/left.png" alt=""></div>
+        <div id="bleft" class="nbtn bbtn"><img src="img/bleft.png" alt=""></div>
+        <div id="right" class="nbtn btn"><img src="img/right.png" alt=""></div>
+        <div id="bright" class="nbtn bbtn"><img src="img/bright.png" alt=""></div>
+        <div id="top" class="nbtn btn"><a href="#header"><img src="img/top.png" alt=""></a></div>
+        <div id="portfolio" class="nbtn btn"><a target="_blank" href="https://satyam-x10.github.io/portfolio/"><img src="img/portfolio.png" alt=""></a></div>
+    </div>
+    
     <script src="index.js" defer></script>
-   
+
 </body>
 
 </html>
