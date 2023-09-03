@@ -190,7 +190,7 @@ input
 #left{
     position: fixed;
     left: 0px;
-    top: 35vh ;
+    bottom: 65vh;
 }
 #bleft{
     position: fixed;
@@ -201,7 +201,7 @@ input
 #right{
     position: fixed;
     right: 0px;
-    top: 35vh ;
+    bottom: 65vh;
 }
 #bright{
     position: fixed;
@@ -232,3 +232,4 @@ border:solid 1px #f4a71e;
 border-radius: 10px;
 background-color: #f4a61e2b;
 }
+
