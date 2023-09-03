@@ -125,7 +125,7 @@ function update(filter = 0) {
                 // ... Your movie creation code ...
                 // ... Your movie creation code ...
                 var coverImg = document.createElement('img');
-                coverImg.src = data[i].coverArt; // Use 'coverArt' from your JSON data
+                coverImg.src = data[i].niceimgurl; // Use 'coverArt' from your JSON data
 
                 // Create an anchor element to wrap the image
                 var movieLink = document.createElement('a');
