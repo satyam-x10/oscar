@@ -34,7 +34,8 @@ body
 }
 
 #logo img 
-{
+{ 
+    position: fixed;
     height: 15vh;
     /* width: 5vw; */
     margin: 5px 0 0 0;
@@ -55,7 +56,7 @@ body
     font-family: 'Oswald', sans-serif;
     font-weight: 800;
     font-size: xx-large;
-  
+    background-image: url("img/header.png");
     background-size: contain;
     border-radius: 20px;
 }
@@ -70,12 +71,15 @@ h7
 }
 
 .movie-container 
-{
+{ 
+    width: 93%;
+    /* border: solid 1px white; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin:5px auto
 }
 
 #movie-area 
@@ -83,6 +87,8 @@ h7
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* border: solid 1px white; */
+    margin: 0px 2px;
 
 }
 
@@ -142,112 +148,7 @@ color: #000000;
     color: #f4a71e;
 }
 
-footer 
-{
-    position: fixed;
-    background-color: #f4a71e;
-    display: flex;
-    border-radius: 20px;
-    flex-direction: row;
-    bottom: 0px;
-    left: 0px;
-    height: 8vh;
-    width: 99vw;
-    text-align: center;
-    justify-content: space-between;
-    font-weight: bolder;
-    font-family: 'Oswald', sans-serif;
-    margin: 0 0 1px 0;
-}
 
-footer img 
-{
-    height: 55px;
-    border: 5px solid yellow;
-    border-radius: 55px;
-    filter: invert();
-}
-
-footer a 
-{ 
-    right: 70px;
-    text-decoration: none;
-}
-
-#ftr 
-{
-    height: 55px;
-    left: 20px;
-    border: 2px solid yellow;
-    border-radius: 20px;
-    filter: none;
-}
-
-#lname 
-{
-    margin: auto;
-    font: 800;
-    font-size: x-large;
-    color: #000000;
-    font-weight: bolder;
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-#upimg 
-{
-    position: fixed;
-    right: 30px;
-    bottom: 10px;
-}
-
-#name 
-{
-    margin: auto;
-    font: 600;
-    color: black;
-    font-weight: 900;
-    font-size: x-large;
-}
-
-.btn 
-{
-    color: #34f604;
-    background-color: #19332a;
-    scale: 2;
-    margin: 20px;
-    border: solid 2px #f4a71e;
-    border-radius: 20px;
-}
-
-.btn:hover 
-{
-    scale: 2.5;
-    cursor: pointer;
-}
-
-.bbtn 
-{
-    border: solid 2px #f4a71e;
-    background-color: #19332a;
-    border-radius: 20px;
-    color: #f60404;
-    scale: 3;
-    margin: 20px;
-}
-
-.bbtn:hover 
-{
-    scale: 3.5;
-    cursor: pointer;
-}
-
-#bright 
-{
-    position: fixed;
-    right: 10px;
-}
 
 button 
 {
@@ -282,3 +183,52 @@ input
     cursor: pointer;
     color: #000000;
 }
+#navbtn img{
+    filter:invert();
+    width: 32px;
+}
+#left{
+    position: fixed;
+    left: 0px;
+    top: 35vh ;
+}
+#bleft{
+    position: fixed;
+    left:0px ;
+    top:60vh ;
+    
+}
+#right{
+    position: fixed;
+    right: 0px;
+    top: 35vh ;
+}
+#bright{
+    position: fixed;
+    right: 0px ;
+    top: 60vh;
+    
+}
+#top{  
+    position: fixed;
+     left:0px ;
+    top:85vh ;}
+#portfolio{
+    position: fixed;
+    right:0px ;
+    top:85vh ;
+}
+.nbtn{
+    margin: 0px  5px;
+    scale: 0.9;
+padding: 5px;
+
+}
+.nbtn:hover{
+scale: 1.2;
+
+border:solid 1px #f4a71e;
+border-radius: 10px;
+background-color: #f4a61e2b;
+}
+
